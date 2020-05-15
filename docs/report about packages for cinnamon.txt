@@ -1,0 +1,38 @@
+baobab                          - Disk Usage Analyzer
+cheese                          - Camera
+firefox                         - browser
+evince                          - Document Viewer
+gnome-calculator                - Calculator
+gnome-disk-utility              - Disks
+gnome-screenshot                - Screenshot
+gnome-system-monitor            - System Monitor
+usb-creator-gtk                 - Startup Disk Creator
+shotwell                        - Image editor
+simple-scan                     - scanner
+snapd                           - Snap apps support
+software-properties-gtk         - Software & Updates
+
+# drivers
+i965-va-driver
+intel-media-va-driver
+mesa-va-drivers
+mesa-vdpau-drivers
+printer-driver-brlaser
+printer-driver-c2esp
+printer-driver-foo2zjs
+printer-driver-foo2zjs-common
+printer-driver-hpcups
+printer-driver-m2300w
+printer-driver-min12xxw
+printer-driver-pnm2ppa
+printer-driver-postscript-hp
+printer-driver-ptouch
+printer-driver-pxljr
+printer-driver-sag-gdi
+printer-driver-splix
+va-driver-all
+vdpau-driver-all
+
+linux-generic-hwe-20.04
+    linux-headers-generic-hwe-20.04
+    linux-image-generic-hwe-20.04

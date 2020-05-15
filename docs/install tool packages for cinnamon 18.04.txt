@@ -1,0 +1,7 @@
+sudo apt install cinnamon  
+sudo apt install lightdm 
+
+sudo apt install baobab cheese firefox evince gnome-calculator gnome-disk-utility gnome-screenshot gnome-system-monitor usb-creator-gtk shotwell simple-scan snapd software-properties-gtk git cups
+
+sudo apt install i965-va-driver mesa-va-drivers mesa-vdpau-drivers printer-driver-brlaser printer-driver-c2esp printer-driver-foo2zjs printer-driver-foo2zjs-common printer-driver-gutenprint printer-driver-hpcups printer-driver-m2300w printer-driver-min12xxw printer-driver-pnm2ppa printer-driver-postscript-hp printer-driver-ptouch printer-driver-pxljr printer-driver-sag-gdi printer-driver-splix va-driver-all vdpau-driver-all
+
