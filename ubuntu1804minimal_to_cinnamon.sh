@@ -29,5 +29,3 @@ sudo apt upgrade -y
 sudo apt autoremove -y
 
 sudo snap install snap-store
-
-reboot

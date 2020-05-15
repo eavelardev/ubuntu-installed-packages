@@ -1,25 +1,23 @@
 sudo apt remove -y \
 gedit \
 gedit-common \
-gnome-bluetooth \
+gnome-characters \
 gnome-font-viewer \
 gnome-getting-started-docs \
 gnome-initial-setup \
+gnome-logs \
 gnome-menus \
 gnome-session-bin \
 gnome-session-canberra \
+gnome-session-common \
 gnome-shell \
-gnome-shell-extension-appindicator \
-gnome-shell-extension-ubuntu-dock \
-gnome-software \
-gnome-software-common \
-gnome-startup-applications \
+gnome-shell-common \
 nautilus \
 nautilus-sendto
 
 sudo apt update
 
-sudo apt install -y \
+sudo apt install -y --no-install-recommends \
 lightdm \
 cinnamon \
 git
@@ -27,7 +25,6 @@ git
 sudo apt autoremove -y
 sudo apt upgrade -y
 sudo apt autoremove -y
-
-sudo snap install snap-store
+sudo apt-get clean
 
 reboot
