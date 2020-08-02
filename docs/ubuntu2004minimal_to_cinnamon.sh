@@ -20,7 +20,9 @@ sudo apt update
 sudo apt install -y --no-install-recommends \
 lightdm \
 cinnamon \
-git
+net-tools \
+git \
+curl
 
 sudo apt autoremove -y
 sudo apt upgrade -y

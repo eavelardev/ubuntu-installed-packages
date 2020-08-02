@@ -19,14 +19,17 @@ nautilus-sendto
 
 sudo apt update
 
-sudo apt install -y \
+sudo apt install -y --no-install-recommends \
 lightdm \
 cinnamon \
-git
+net-tools \
+git \
+curl
 
 sudo apt autoremove -y
 sudo apt upgrade -y
 sudo apt autoremove -y
+sudo apt-get clean
 
 sudo snap install snap-store
 
